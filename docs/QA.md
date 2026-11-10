@@ -48,4 +48,13 @@ La revisión automática de accesibilidad no equivale a certificación ni a una 
 
 ## Publicación
 
-Pendiente de autorización para crear un repositorio público nuevo y un proyecto Vercel. No hay URL pública creada ni verificada. La consulta de solo lectura al repositorio propuesto devolvió 404; no se modificó un repositorio existente.
+Autorización del propietario recibida. Se crearon recursos nuevos, sin modificar repositorios o proyectos preexistentes.
+
+- GitHub público: https://github.com/cbances03/nexus-ai-demo, rama main.
+- URL pública: https://nexus-ai-demo-beta.vercel.app.
+- Despliegue inicial: dpl_Brye7adYScDP5o6GcKchpvLLym5S, READY; build remoto aprobado.
+- Petición HTTPS anónima: HTTP 200, sin redirección a autenticación; título correcto.
+- Pruebas completas sobre esa URL: **36 passed (39.6 s)**, código de salida 0, escritorio y móvil, sin cookies de sesión ni bypass.
+- Consola, rutas, recursos, accesibilidad, persistencia, formularios y 404 cubiertos por las mismas pruebas usadas localmente.
+- Conexión Vercel/GitHub confirmada: repo nexus-ai-demo, productionBranch main; Node.js 22.x confirmado en el proyecto.
+- Se mantiene la protección predeterminada de URLs de preview; la URL de producción indicada permite acceso público.

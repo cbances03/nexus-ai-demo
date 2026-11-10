@@ -56,11 +56,15 @@ No hay dependencias compartidas con los otros proyectos del workspace. package-l
 
 ## Publicación en GitHub y Vercel
 
-Pendiente de autorización para crear recursos externos y hacer público el repositorio. No hay una URL publicada todavía.
+Repositorio público: https://github.com/cbances03/nexus-ai-demo
 
-Tras autorizar, crear un repositorio nuevo `cbances03/nexus-ai-demo` en main y subir únicamente archivos revisados. Importarlo en Vercel dentro del equipo acordado, con preset Next.js, raíz del repositorio y comandos por defecto (`npm run build`). Conectar GitHub para despliegues de main. No añadir claves ni contratar servicios adicionales.
+URL pública verificada: https://nexus-ai-demo-beta.vercel.app
 
-Verificar la URL HTTPS real, acceso público, navegación, rutas directas, consola, móvil y flujos E2E antes de declarar el proyecto publicado. El plan Hobby del usuario está confirmado; no se ha creado un proyecto de hosting.
+Vercel: equipo `c-3`, proyecto `nexus-ai-demo`, Node.js 22.x y rama de producción `main`. Repositorio GitHub conectado. Despliegue de producción y 36 pruebas E2E sobre la URL pública verificados el 2026-11-10, sin sesión ni bypass.
+
+Para reproducir el despliegue en otra cuenta, importar el repositorio en Vercel con preset Next.js, Node.js 22.x, raíz del repositorio y comando de build `npm run build`. Conectar GitHub para despliegues de main. No se necesitan claves ni servicios adicionales. La creación de recursos en otra cuenta requiere la autorización de su propietario.
+
+El proyecto utiliza el plan Hobby existente sin contratar extras. Conservar las verificaciones HTTPS, acceso público, navegación, rutas directas, consola, móvil y flujos E2E después de cambios funcionales.
 
 ## Mantenimiento
 
